@@ -5,11 +5,38 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/runtime": "^7.12.5",
+    "@testing-library/react": "^11.2.2",
+    "autoprefixer": "^10.0.4",
+    "babel-jest": "^26.6.3",
+    "babel-preset-mobx": "^2.0.0",
+    "jest": "^26.6.3",
+    "lodash": "^4.17.20",
+    "mobx": "^6.0.4",
+    "mobx-utils": "^6.0.1",
     "next": "10.0.3",
+    "postcss": "^8.1.13",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-datepicker": "^3.3.0",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.12.2",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@babel/preset-react": "^7.12.7",
+    "@testing-library/dom": "^7.28.1",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.3.2",
+    "enzyme": "^3.11.0",
+    "identity-obj-proxy": "^3.0.0",
+    "react-test-renderer": "^17.0.1"
   }
 }
